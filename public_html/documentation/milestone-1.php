@@ -15,20 +15,24 @@
 	</ul>
 
 	<div id="container">
-	<h1>Personal Freelance Websites</h1>
-	<h2>purpose:</h2>
-		<p>To build simple sites. Fast and efficient</p>
-	<h2>audience:</h2>
-		<p>People who are seeking Personal sites for themselves.</p>
-	<h2>goal:</h2>
-		<p>To Give people fast easy sites done well and to preference.</p>
-	<h2>Persona:</h2>
-	<h1>Dave Robinson</h1>
+	<h1 class="text">Personal Freelance Websites</h1>
+		<h2><span class="text subject">Purpose, Audience, Goal:</span></h2>
+	<h2 class="text">purpose:</h2>
+		<p class="text">To build simple sites. Fast and efficient</p>
+	<h2 class="text">audience:</h2>
+		<p class="text">People who are seeking Personal sites for themselves.</p>
+	<h2 class="text">goal:</h2>
+		<p class="text">To give people fast easy sites done well and to preference.</p>
+	<h2 ><span class="text subject">Persona:</span></h2>
+	<h1 class="text">Dave Goodwin</h1>
 		<ul>
-			<li>AGE: 28</li>
-			<li>GENDER:MALE</li>
-			<li>Dave is looking for a personal website for himself</li>
-
+			<li class="text">AGE: 31</li>
+			<li class="text">GENDER: MALE</li>
+			<li class="text">ATTITUDE: Dave has been looking for a web site that can comply
+				with his web site preferences .</li>
+			<li class="text">FRUSTRATION: Needs a site that is not ugly. And good to look at. </li>
+			<li class="text">GOALS: Wants a personal site done within 1 Month. </li>
+			<li class="text">USER STORY: Dave is looking for a personal website for himself that is new and fresh.</li>
 		</ul>
 	</div>
 </body>

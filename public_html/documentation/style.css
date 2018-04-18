@@ -11,7 +11,7 @@ body {
 	list-style: none;
 	text-align: center;
 	padding: 20px 0 20px 0;
-	/**position:fixed;**/
+	/*position:fixed;*/
 }
 
 .nav > li {
@@ -30,4 +30,12 @@ body {
 
 #container {
 	padding-left: 50px;
+}
+
+.text {
+	color:#ffffff;
+}
+
+.subject {
+	border:2px solid #ffffff;
 }
