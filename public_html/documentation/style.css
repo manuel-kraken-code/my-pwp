@@ -1,0 +1,33 @@
+body {
+	background-color: #595959;
+	margin: 0;
+	padding: 0;
+	font-family:'Arial', Serif;
+}
+
+.nav {
+	background-color:#55d6aa;
+	color:#ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	/**position:fixed;**/
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.nav > li> a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav > li >a:hover {
+	color: #c1c1c1;
+}
+
+#container {
+	padding-left: 50px;
+}
