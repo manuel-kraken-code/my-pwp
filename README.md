@@ -25,3 +25,13 @@ Your Milestone 1 passes at [Tier I](https://bootcamp-coders.cnm.edu/projects/per
 - Add `/vendor` to your .gitgignore
 - DOCTYPE is mistyped - `html` is missing
 - Be careful to indent your HTML properly.
+
+#### Milestone 1 Revision Feedback
+The purpose and goal are still not detailed enough, and are not relevant to this project. Please see the [Sample Milestones](https://bootcamp-coders.cnm.edu/projects/personal/example/) that I mentioned in the feedback above - that level of detail was the guide for Tier IV (grade A/professional) work - ideally what we were looking for here. The persona and audience are not detailed enough, and what you have here tells me next to nothing about these prospective clients of yours that you're building a site to engage with. There are also numerous spelling and grammatical errors here, which are very unprofessional.  TL; DR: this is not the quality of work you could hand to a client, coworker, or boss, and it's not accurate or detailed enough to provide you with a plan to base development on. If you plan to freelance, the ability to document, plan, and scope a project professionally is very important. That's the primary reason we assign these milestones to begin with - to highlight this process at a beginner level with very simple and basic requirements. In the "real world" of web and software development the requirements will go far beyond this.
+
+The following technical issues listed above were not fixed:
+- Your .gitignore is still missing `/vendor`
+- Your DOCTYPE is still mistyped
+- HTML indentation is still incorrect
+
+Unfortunately, since the documentation you have here is insufficient and does not align with the project outline and the technical errors were not fixed I cannot increase the grade on this project. The grade stands at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please begin Milestone 2a ASAP as you do not have time to complete any more work on this phase. Please bear in mind that successful completion of PWP is a graduation requirement.
