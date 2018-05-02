@@ -40,10 +40,11 @@
 
 			<h2>Content Strategy</h2>
 			<p>My site will be one page, and will consist of the following sections:</p>
-			<p><strong>Welcome:</strong> My brief one-line introduction that clearly states my name and role as a Front End Developer.</p>
-			<p><strong>About Me:</strong> This section will detail myself and tell the user a little about me and how I can build them a portfolio.</p>
-			<p><strong>Portfolio:</strong> I want the user to go through the list of different portfolios and chose from one another. </p>
-			<p><strong>Contact:</strong> Contain a simple contact form, my professional email address, and My Links. Git, LinkedIn, Slack</p>
+			<p><strong>Welcome:</strong> My Site will be for People seeking Personal Portfolios for themselves</p>
+			<p><strong>About Me:</strong> This will tell the user a little about me and how I can build them a portfolio. And What to expect for there web page.</p>
+			<p><strong>Portfolio:</strong> I want the user to go through the list of different portfolios
+				through a interactive slide show and chose one by clicking the arrow buttons. </p>
+			<p><strong>Contact:</strong> Have a simple contact displayed after my "About Me", my email address, and My Links. Git, LinkedIn, Slack</p>
 
 			<h1>Milestone 2a</h1>
 			<img src="png-again.png" alt="PNG">
