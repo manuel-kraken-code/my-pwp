@@ -37,6 +37,8 @@
 			<li class="text">GOALS: I want a professional portfolio site that tells my story and gives people a reason to
 			see my retail business</li>
 		</ul>
+		<h1>Milestone 2a</h1>
+		<img src="png-111.png" alt="PNG">
 	</div>
 </body>
 
