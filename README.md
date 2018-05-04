@@ -35,3 +35,23 @@ The following technical issues listed above were not fixed:
 - HTML indentation is still incorrect
 
 Unfortunately, since the documentation you have here is insufficient and does not align with the project outline and the technical errors were not fixed I cannot increase the grade on this project. The grade stands at [Tier I](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Please begin Milestone 2a ASAP as you do not have time to complete any more work on this phase. Please bear in mind that successful completion of PWP is a graduation requirement.
+
+### Milestone 2a Feedback
+This is an alright start for your development. A bit more detail could be added to the Content Strategy so that it explains what each piece of the wireframe is. I see Welcome in the content strategy, but no Welcome in the wireframes. Based on what you have here, I think you'll find that your development process may not line up exactly with the wireframes so be prepared to adjust things as necessary. The reason I say this is because there's only a very general level of detail here. When you start putting things into a browser things may look a bit differently. Be careful not to lose time.
+
+Add `/vendor` to your .gitignore - this has been missing since Milestone 1, and is in the feedback from before.
+
+The built-in [Bootstrap Carousel](http://getbootstrap.com/docs/4.1/components/carousel/) should be sufficient for your portfolio carousel. Give it a try.
+
+[FontAwesome](https://fontawesome.com/) is a good quality free library for including iconography. Try this out for your footer icons.
+
+Slack usernames are team-based - so it's not something that would be useful to the general public to contact you. Think about removing it from the footer for that reason.
+
+A simple site like yours can look polished and professional - consistency in your design, good use of colors, and good quality images make ALL the difference. Keep things simple and well lined up. Things are a little bit skewed and misaligned in the wireframes. Watch the mispellings - clients and employers notice this. Going forward I challenge you to take these deliverables to the next level in quality.
+
+Begin development after you can complete the Bootstrap Challenge. Keep things simple. Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+**We'll be building PWP in a file named index.php inside of /public_html**. Please note that no site files should live outside of the /public_html directory. Please use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
+
+#### Edits &amp; Suggestions
+- **Add `/vendor` to your .gitignore**.
