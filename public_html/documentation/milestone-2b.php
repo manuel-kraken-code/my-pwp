@@ -4,9 +4,9 @@
 		<meta charset="UTF-8">
 		<title>my PWP</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+
 	</head>
 	<body>
-
 		<ul class="nav">
 			<li><a href="milestone-2.php">HOME</a></li>
 			<li><a href="about.html">ABOUT ME</a></li>
