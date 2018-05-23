@@ -55,3 +55,6 @@ Begin development after you can complete the Bootstrap Challenge. Keep things si
 
 #### Edits &amp; Suggestions
 - **Add `/vendor` to your .gitignore**.
+
+### Milestone 2b Feedback
+Nice work so far - but you've still got a way to go. Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Meeting notes left via Slack.
