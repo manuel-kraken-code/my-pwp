@@ -1,19 +1,19 @@
 <!DOCTYPE>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<title>my PWP</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+<!--		<meta charset="UTF-8">-->
+<!--		<title>my PWP</title>-->
+<!--		<link rel="stylesheet" type="text/css" href="style.css">-->
 	</head>
 	<body>
 
-		<ul class="nav">
-			<li><a href="milestone-2.php">HOME</a></li>
-			<li><a href="about.html">ABOUT ME</a></li>
-			<li><a href="resume.html">RESUME</a></li>
-			<li><a href="https://github.com/manuel-kraken-code?tab=repositories">GITHUB</a></li>
-			<li><a href="contact.html">CONTACT</a></li>
-		</ul>
+<!--		<ul class="nav">-->
+<!--			<li><a href="milestone-2.php">HOME</a></li>-->
+<!--			<li><a href="about.html">ABOUT ME</a></li>-->
+<!--			<li><a href="resume.html">RESUME</a></li>-->
+<!--			<li><a href="https://github.com/manuel-kraken-code?tab=repositories">GITHUB</a></li>-->
+<!--			<li><a href="contact.html">CONTACT</a></li>-->
+<!--		</ul>-->
 
 		<div id="container">
 			<h1 class="text">Freelance Professional Portfolio</h1>

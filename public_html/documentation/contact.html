@@ -4,18 +4,65 @@
 		<meta charset="UTF-8">
 		<title>my PWP</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
-
 		<ul class="nav">
-			<li><a href="milestone-2.php">HOME</a></li>
+			<li><a href="milestone-2b.php">HOME</a></li>
 			<li><a href="about.html">ABOUT ME</a></li>
-			<li><a href="resume.html">RESUME</a></li>
-			<li><a href="https://github.com/manuel-kraken-code?tab=repositories">GITHUB</a></li>
-			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="Link Needed.html">SLACK<i class="fab fa-slack"></i></a></li>
+			<li><a href="https://github.com/manuel-kraken-code?tab=repositories">GitHub<i class="fab fa-github"></i></a></li>
+			<!--			<li><a href="mailto:manuel.esco.20@gmail.com">CONTACT<i class="fas fa-envelope"></i></a></li>-->
+			<li><a href="contact.html">CONTACT<i class="fas fa-envelope"></i></a></li>
 		</ul>
 
-		<h1>Contact</h1>
+
+<!--My CSS-->
+<!--Taken from codepen.io-->
+<!--A Pen By: Chris Holder-->
+
+		<div class="container">
+			<form id="contact" action="" method="post">
+				<h3>Quick Contact</h3>
+				<h4 class="black">Contact us today, and get reply with in 24 hours!</h4>
+				<fieldset>
+					<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Your Email Address" type="email" tabindex="2" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+				</fieldset>
+				<fieldset>
+					<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+				</fieldset>
+				<fieldset>
+					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+				</fieldset>
+			</form>
+
+
+		</div>
+
+
+
 
 
 
@@ -27,5 +74,4 @@
 
 
 	</body>
-
 </html>
