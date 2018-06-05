@@ -21,10 +21,7 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
-		<!--JQ/JS-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
@@ -83,7 +80,7 @@
 
 		<div class="container">
 			<img src="images/abq.jpg" alt="ABQ" style="width:100%;">
-			<div class="centered container-fluid">Professional Freelance Portfolios</div>
+			<div class="centered container-fluid"><span class="something">Professional Freelance Portfolios</span></div>
 		</div>
 
 
@@ -117,14 +114,9 @@
 			</a>
 		</div>
 
-
-
-
-
-
-		<div class="b-container">
+			<div class="b-container">
 			<img src="images/why_albuquerque_downtown.jpg" alt="down town" style="width: 100%">
-			<div class="centered">ABOUT ME!</div>
+				<div class="centered"><span class="something">ABOUT ME!</span></div>
 		</div>
 
 		<div class="center">
@@ -147,13 +139,6 @@
 <!--		</div>-->
 
 
-<!--		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-<!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
-<!--		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>-->
-
-
-
-
 
 
 
@@ -164,10 +149,10 @@
 			<section class="contact-me" id="contact-me">
 				<div class="sfooter-content">
 				<header class="py-5">
-					<div class="container">
-						<a class="sup2" target="_blank">
+					<div class="container sup2">
+						<span class="something2">
 							Contact Form
-						</a>
+						</span>
 					</div>
 				</header>
 
