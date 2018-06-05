@@ -9,7 +9,7 @@ body {
 .sup {
 	color: #fff;
 	background: red;
-	padding: 10px 7px;
+	padding: 7px 7px;
 	text-decoration: none;
 	width : 80px;
 	margin : auto;
@@ -96,5 +96,24 @@ A Pen By: Chris Holder
 
 .fa-envelope{
 	font-size: 1.4em;
+}
+
+/******************************************
+* PHP/Swiftmailer/jQuery Contact Form Demo
+* @author rlewis37@cnm.edu
+*******************************************/
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+
+.sfooter-content {
+	flex: 1 0 auto;
 }
 
