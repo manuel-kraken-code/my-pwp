@@ -16,11 +16,15 @@
 <!--			<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
 			<!-- jQuery Form, Additional Methods, Validate -->
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<!-- Your JavaScript Form Validator -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!--JQ/JS-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 		<script src="js/form-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
@@ -41,32 +45,28 @@
 <!--			<li><a href="contact.html">CONTACT<i class="fas fa-envelope"></i></a></li>-->
 <!--		</ul>-->
 
-		<a href="https://www.supremenewyork.com/" class="sup" target="_blank">
-			Escobar505
-		</a>
+
 
 		<!---------------------------todo New Nav Bar!!!-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/manuel-kraken-code?tab=repositories"  target="_blank"><i class="fab fa-github"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.linkedin.com/in/m-escobar"> <i class="fab fa-linkedin-in"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact-me"><i class="fas fa-envelope"></i></a>
+					</li>
+			</div>
+			<div class="container">
+				<a href="https://www.supremenewyork.com/" class="sup" target="_blank">Escobar505</a>
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/manuel-kraken-code?tab=repositories" target="_blank">GitHUB <i class="fab fa-github"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://github.com/manuel-kraken-code?tab=repositories">Twitter <i class="fab fa-twitter-square"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact <i class="fas fa-envelope"></i></a>
-					</li>
-			</div>
 		</nav>
 <!-----------------------------DROP DOWN----------------------------->
 <!--					<li class="nav-item dropdown">-->
@@ -83,7 +83,7 @@
 
 		<div class="container">
 			<img src="images/abq.jpg" alt="ABQ" style="width:100%;">
-			<div class="centered">Professional Freelance Portfolios</div>
+			<div class="centered container-fluid">Professional Freelance Portfolios</div>
 		</div>
 
 
@@ -146,14 +146,7 @@
 <!--			<h2 class="text">Goal:</h2>-->
 <!--		</div>-->
 
-<div class="center">
-<h1 class="text">Empty</h1>
-</div>
 
-		<!--JQ/JS-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <!--		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
 <!--		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
 <!--		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>-->
@@ -167,20 +160,20 @@
 
 
 
-
-			<div class="sfooter-content">
-
+			<!-- BEGIN CONTACT FORM -->
+			<section class="contact-me" id="contact-me">
+				<div class="sfooter-content">
 				<header class="py-5">
 					<div class="container">
-						<h1>PWP Form Demo</h1>
+						<a class="sup2" target="_blank">
+							Contact Form
+						</a>
 					</div>
 				</header>
 
 				<main class="container pb-5">
 					<div class="row">
-						<div class="col-md-6">
-
-							<!-- BEGIN CONTACT FORM -->
+						<div class="col-sm-12">
 							<form id="demo-form" method="post" action="php/mailer.php">
 								<div class="form-group">
 									<label for="demoName">Name</label>
@@ -222,7 +215,6 @@
 
 								<button class="btn btn-info" type="submit">Submit</button>
 								<button class="btn btn-default" type="reset">Reset</button>
-
 							</form>
 							<!-- END CONTACT FORM-->
 
@@ -238,6 +230,8 @@
 					<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/" target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
 				</div>
 			</footer>
+			</section>
 		</body>
+
 
 </html>
