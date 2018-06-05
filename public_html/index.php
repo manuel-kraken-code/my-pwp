@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 		<!--CSS-->
-		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 			<!-- Custom CSS -->
 <!--			<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
@@ -30,10 +30,7 @@
 
 		</head>
 
-		<body class="sfooter">
-
-
-
+		<body>
 <!--		<ul class="nav">-->
 <!--			<li>NAVBAR-</li>-->
 <!--			<li><a href="milestone-2b.php">HOME</a></li>-->
@@ -67,9 +64,10 @@
 						<a class="nav-link" href="https://github.com/manuel-kraken-code?tab=repositories">Twitter <i class="fab fa-twitter-square"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../contact.html">Contact <i class="fas fa-envelope"></i></a>
+						<a class="nav-link" href="contact.html">Contact <i class="fas fa-envelope"></i></a>
 					</li>
-
+			</div>
+		</nav>
 <!-----------------------------DROP DOWN----------------------------->
 <!--					<li class="nav-item dropdown">-->
 <!--						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
@@ -83,22 +81,10 @@
 <!--						</div>-->
 <!--					</li>-->
 
-			</div>
-		</nav>
-
-
-
-
-
-
-
 		<div class="container">
-			<img src="../img/abq.jpg" alt="ABQ" style="width:100%;">
+			<img src="images/abq.jpg" alt="ABQ" style="width:100%;">
 			<div class="centered">Professional Freelance Portfolios</div>
 		</div>
-
-
-
 
 
 
@@ -112,13 +98,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100 img-fluid" src="../img/GOWtest.jpg" alt="First slide">
+					<img class="d-block w-100 img-fluid" src="images/GOWtest.jpg" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100 img-fluid" src="../img/GOWtest.jpg" alt="Second slide">
+					<img class="d-block w-100 img-fluid" src="images/GOWtest.jpg" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100 img-fluid" src="../img/GOWtest.jpg" alt="Third slide">
+					<img class="d-block w-100 img-fluid" src="images/GOWtest.jpg" alt="Third slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -137,7 +123,7 @@
 
 
 		<div class="b-container">
-			<img src="../why_albuquerque_downtown.jpg" alt="down town" style="width: 100%">
+			<img src="images/why_albuquerque_downtown.jpg" alt="down town" style="width: 100%">
 			<div class="centered">ABOUT ME!</div>
 		</div>
 
@@ -195,7 +181,7 @@
 						<div class="col-md-6">
 
 							<!-- BEGIN CONTACT FORM -->
-							<form id="demo-form" method="post" action="mailer.php">
+							<form id="demo-form" method="post" action="php/mailer.php">
 								<div class="form-group">
 									<label for="demoName">Name</label>
 									<div class="input-group">
@@ -252,7 +238,6 @@
 					<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/" target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
 				</div>
 			</footer>
-
 		</body>
 
 </html>

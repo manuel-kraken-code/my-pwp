@@ -48,7 +48,7 @@
 			<p><strong>Contact:</strong> Have a simple contact displayed after my "About Me", my email address, and My Links. Git, LinkedIn, Slack</p>
 
 			<h1>Milestone 2a</h1>
-			<img src="../img/png-again.png" alt="PNG">
+			<img src="../images/png-again.png" alt="PNG">
 		</div>
 	</body>
 
