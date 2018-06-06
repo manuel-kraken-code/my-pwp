@@ -7,13 +7,16 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+		<!-- Bootstrap JS Carousel-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 		<!--Font Awesome-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-			<!-- Custom CSS -->
-<!--			<link rel="stylesheet" href="css/style.css" type="text/css">-->
 
 			<!-- jQuery Form, Additional Methods, Validate -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -52,13 +55,13 @@
 						<a class="nav-link" href="https://github.com/manuel-kraken-code?tab=repositories"  target="_blank"><i class="fab fa-github"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://www.linkedin.com/in/m-escobar"> <i class="fab fa-linkedin-in"></i></a>
+						<a class="nav-link" href="https://www.linkedin.com/in/m-escobar" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact-me"><i class="fas fa-envelope"></i></a>
 					</li>
 			</div>
-			<div class="container">
+			<div class="mr-2">
 				<a href="https://www.supremenewyork.com/" class="sup" target="_blank">Escobar505</a>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +81,7 @@
 <!--						</div>-->
 <!--					</li>-->
 
-		<div class="container">
+		<div class="b-container">
 			<img src="images/abq.jpg" alt="ABQ" style="width:100%;">
 			<div class="centered container-fluid"><span class="something">Professional Freelance Portfolios</span></div>
 		</div>
@@ -159,41 +162,41 @@
 				<main class="container pb-5">
 					<div class="row">
 						<div class="col-sm-12">
-							<form id="demo-form" method="post" action="php/mailer.php">
+							<form id="esco-form" method="post" action="php/mailer.php">
 								<div class="form-group">
-									<label for="demoName">Name</label>
+									<label for="escoName">Name</label>
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<span class="input-group-text"><i class="fa fa-user"></i></span>
 										</div>
-										<input class="form-control" type="text" name="demoName" id="demoName" placeholder="Your Name">
+										<input class="form-control" type="text" name="escoName" id="escoName" placeholder="Your Name">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="demoEmail">Email</label>
+									<label for="escoEmail">Email</label>
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 										</div>
-										<input class="form-control" type="email" name="demoEmail" id="demoEmail" placeholder="Your Email">
+										<input class="form-control" type="email" name="escoEmail" id="escoEmail" placeholder="Your Email">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="demoSubject">Subject</label>
+									<label for="escoSubject">Subject</label>
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<span class="input-group-text"><i class="fa fa-pencil"></i></span>
 										</div>
-										<input class="form-control" type="text" name="demoSubject" id="demoSubject" placeholder="Subject">
+										<input class="form-control" type="text" name="escoSubject" id="escoSubject" placeholder="Subject">
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="demoMessage">Message</label>
+									<label for="escoMessage">Message</label>
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<span class="input-group-text"><i class="fa fa-comment"></i></span>
 										</div>
-										<textarea name="demoMessage" rows="5" id="demoMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+										<textarea name="escoMessage" rows="5" id="escoMessage" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
 									</div>
 								</div>
 								<div class="g-recaptcha" data-sitekey="6LdFaVwUAAAAANZHYzLZH-aMtWyVB2VNcjZDByOB"></div>
@@ -212,7 +215,7 @@
 
 			<footer class="py-4 text-white">
 				<div class="container">
-					<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/" target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo" target="_blank">GitHub</a>
+					<a class="text-white" href="https://www.linkedin.com/in/m-escobar" target="_blank">LinkedIn</a> | <a class="text-white" href="https://github.com/manuel-kraken-code?tab=repositories" target="_blank">GitHub</a>
 				</div>
 			</footer>
 			</section>
