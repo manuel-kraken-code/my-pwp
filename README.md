@@ -58,3 +58,31 @@ Begin development after you can complete the Bootstrap Challenge. Keep things si
 
 ### Milestone 2b Feedback
 Nice work so far - but you've still got a way to go. Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Meeting notes left via Slack.
+
+### PWP Final Feedback
+Nice work on creating a simple but stylish PWP. There is plenly of room to expand upon what you've done here - so continue to practice your front-end skills and challenge yourself.
+
+*Code Base*: The following issues were found in your code. Errors can also be found by using https://validator.w3.org.
+- DOCTYPE declaration `html` is missing
+- Comment syntax is non-standard, and there are nested comments. This can cause problems. Stick to: `<!-- COMMENT HERE -->`
+- There is dead/commented-out code throughout the document. This is fine for development, but should be removed when you go live.
+- Evidence of unclosed or improperly closed/nested elements
+- I also see some copy/pasted css from my form demo that's not being used at all (CSS lines 131 - 150). Why'd you include this if you don't need it?
+
+*Git Commits*: Ok - try and be more regular in your commit/push habits in the future. Also take care to leave useful commit messages.
+
+*Mobile-First Responsiveness*: I've tested your page using devtools, Chrome on Linux, and Chrome & Firefox on Android. Your layout and design work well on the platforms tested - nice work.
+
+*Design, Content, &amp; Overall Presentation*: Nice work on design - the use of imagery and color really make your page stand out. There is plenty of room for added content... there's not much here to read or explore, but the graphics still draw the eye in. It looks like the three images you have in your slider are placeholders for real content. This makes your page feel unfinished, and that's not very  professional once a site goes live. It's best to remove that section until you have some real content in place. The photos you've used look great, and you've got an eye for contrast and color. Keep up the good work - and continue to challenge yourself with UI design.
+
+*Contact Form*: Your contact form appears to be working correctly from my end - check and see if you got my test message.
+
+Your PWP passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 26/40 points (65%). Please bear in mind that 20/40 is considered passing with a "C".
+
+- Milestone 1 - 20%: Tier I 10(0.2) = 2
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier III 30(0.1) = 3
+- Milestone 3 - 50%: Tier III 30(0.5) = 15
+
+#### Suggestions
+- We didn't discuss favicons, but you might want to consider adding one. Have a look at this tool which helps render multiple versions for cross-platform  support: https://realfavicongenerator.net/
